@@ -1,0 +1,113 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --gray-purple: hsl(292, 16%, 49%);
+    --dark-purple: hsl(292, 42%, 14%);
+}
+
+body, h1, h2, p{
+    margin:0;
+}
+
+body{
+    height:100vh;
+    background: var(--light-pink) top/102% url(assets/images/background-pattern-desktop.svg) no-repeat;
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:16px;
+    color:var(--gray-purple);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.font-semibold {
+    font-weight: 600;
+    font-size:1.125rem;
+    color:var(--dark-purple);
+}
+
+.font-bold {
+    font-weight: 700;
+    font-size:3.5rem;
+    color:var(--dark-purple);
+}
+
+.main{
+    max-width:600px;
+    box-sizing:border-box;
+    padding:2.5rem;
+
+    background-color:var(--white);
+    border-radius:1rem;
+}
+
+.header{
+    margin-bottom:2rem;
+
+    display:flex;
+}
+
+.header__star{
+    margin-right:1.5rem;
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.question{
+    padding: 1.5rem 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.question:nth-of-type(n+2){
+    border-top: solid var(--light-pink) 1px;
+}
+
+.question__icon{
+    width:30px;
+    height:30px;
+}
+
+.answer{
+    line-height:1.5rem;
+    margin:0 0 1.5rem 0;
+    display:none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
